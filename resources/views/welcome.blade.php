@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,7 +50,7 @@
         <div class="sidebar-info">
             <div class="sidebar-logo">
                 <a href="#">
-                    <img src="{{asset('assets/img/logo/logo2.png')}}" alt="logo" style="height: 100px;">
+                    <img src="{{secure_asset('assets/img/logo/logo2.png')}}" alt="logo" style="height: 100px;">
                 </a>
                 <div class="close-mobile-menu">
                     <a><i class="fa-solid fa-xmark"></i></a>
@@ -72,7 +71,7 @@
             <div class="space32"></div>
             <div class="space16"></div>
             <div class="btn-area">
-                <a href="javascript:void(0)" onclick="openMail()" class="vl-btn1">Get in touch now <img src="{{asset('assets/img/icons/mail1.svg')}}" alt=""></a>
+                <a href="javascript:void(0)" onclick="openMail()" class="vl-btn1">Get in touch now <img src="{{secure_asset('assets/img/icons/mail1.svg')}}" alt=""></a>
             </div>
             <div class="space40"></div>
             <div class="social-link-area">
@@ -98,16 +97,16 @@
                 <div class="col-lg-12">
                     <div class="header-elements">
                         <div class="site-logo">
-                            <a href="#"><img src="{{asset('assets/img/logo/logo1.png')}}" alt="" style="height: 100px;"></a>
+                            <a href="#"><img src="{{secure_asset('assets/img/logo/logo1.png')}}" alt="" style="height: 100px;"></a>
                         </div>
                         <div class="btn-area d-lg-flex">
                             <a href="javascript:void(0)" class="vl-btn1" onclick="openMail()">
                                 HIRE ME
                                 <span>
-                                    <img src="{{asset('assets/img/icons/mail1.svg')}}" alt="">
+                                    <img src="{{secure_asset('assets/img/icons/mail1.svg')}}" alt="">
                                 </span>
                             </a>
-                            <button class="hamburger_menu"><img src="{{asset('assets/img/icons/bars-icons1.svg')}}" alt=""></button>
+                            <button class="hamburger_menu"><img src="{{secure_asset('assets/img/icons/bars-icons1.svg')}}" alt=""></button>
                         </div>
                     </div>
                 </div>
@@ -120,24 +119,24 @@
 <!--===== MAIN AREA STARTS =======-->
 <div class="main-hero-area5 parallaxie">
     <video class="body-overlay"  muted="" autoplay="" loop="">
-        <source src="{{asset('assets/img/video/video5.mp4')}}" type="video/mp4">
+        <source src="{{secure_asset('assets/img/video/video5.mp4')}}" type="video/mp4">
     </video>
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
                 <div class="personal-contact-box" data-aos="fade-right" data-aos-duration="1000">
                     <div id="list-example" class="list-group">
-                        <a class="list-group-item list-group-item-action active" href="#list-item-1"><img src="{{asset('assets/img/icons/home1.svg')}}" alt=""><span>Home</span></a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-2"><img src="{{asset('assets/img/icons/home2.svg')}}" alt=""> <span>About Us</span></a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-3"><img src="{{asset('assets/img/icons/home3.svg')}}" alt=""> <span>Our Service</span></a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-4"><img src="{{asset('assets/img/icons/home4.svg')}}" alt=""> <span>My Skill</span></a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-5"><img src="{{asset('assets/img/icons/home5.svg')}}" alt=""> <span>Portfolio</span></a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-6"><img src="{{asset('assets/img/icons/home6.svg')}}" alt=""> <span>Testimonial</span></a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-7"><img src="{{asset('assets/img/icons/home8.svg')}}" alt=""> <span>Our Blog</span></a>
-                        <a class="list-group-item list-group-item-action m-0" href="#list-item-8"><img src="{{asset('assets/img/icons/home7.svg')}}" alt=""> <span>Contact Us</span></a>
+                        <a class="list-group-item list-group-item-action active" href="#list-item-1"><img src="{{secure_asset('assets/img/icons/home1.svg')}}" alt=""><span>Home</span></a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2"><img src="{{secure_asset('assets/img/icons/home2.svg')}}" alt=""> <span>About Us</span></a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3"><img src="{{secure_asset('assets/img/icons/home3.svg')}}" alt=""> <span>Our Service</span></a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4"><img src="{{secure_asset('assets/img/icons/home4.svg')}}" alt=""> <span>My Skill</span></a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-5"><img src="{{secure_asset('assets/img/icons/home5.svg')}}" alt=""> <span>Portfolio</span></a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-6"><img src="{{secure_asset('assets/img/icons/home6.svg')}}" alt=""> <span>Testimonial</span></a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-7"><img src="{{secure_asset('assets/img/icons/home8.svg')}}" alt=""> <span>Our Blog</span></a>
+                        <a class="list-group-item list-group-item-action m-0" href="#list-item-8"><img src="{{secure_asset('assets/img/icons/home7.svg')}}" alt=""> <span>Contact Us</span></a>
                     </div>
                     <div class="img1 image-anime reveal">
-                        <img src="{{asset('assets/img/all-images/hero/hero-img1.png')}}" alt="">
+                        <img src="{{secure_asset('assets/img/all-images/hero/hero-img1.png')}}" alt="">
                     </div>
                     <div class="space18"></div>
                     <h3>Ashikur Rahman</h3>
@@ -145,12 +144,12 @@
                     <p>Hi, I’m Ashik, a dedicated Web Designer/Web Developer with 2 years of experience creating meaningful digital experiences.</p>
                     <div class="space32"></div>
                     <ul>
-                        <li><a href="https://www.facebook.com/ashik.razz.8490/" target="_blank"><img src="{{asset('assets/img/icons/s-icon3.svg')}}" alt=""></a></li>
-                        <li><a href="https://www.linkedin.com/in/ashikur-rahman-1154793a2/" target="_blank"><img src="{{asset('assets/img/icons/s-icon4.svg')}}" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/ashik.razz.8490/" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon3.svg')}}" alt=""></a></li>
+                        <li><a href="https://www.linkedin.com/in/ashikur-rahman-1154793a2/" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon4.svg')}}" alt=""></a></li>
                     </ul>
                     <div class="space44"></div>
                     <div class="btn-area1 text-center">
-                        <a href="{{asset('assets/img/all-images/hero/Resume - Ashikur Rahman.pdf')}}" download class="vl-btn1">Download Now <img src="{{asset('assets/img/icons/download1.svg')}}" alt=""></a>
+                        <a href="{{secure_asset('assets/img/all-images/hero/Resume - Ashikur Rahman.pdf')}}" download class="vl-btn1">Download Now <img src="{{secure_asset('assets/img/icons/download1.svg')}}" alt=""></a>
                     </div>
                     <div class="space32"></div>
                     <p>© {{ now()->year }} Ashik. All Rights Reserved.</p>
@@ -161,7 +160,7 @@
                     <!--===== HERO AREA STARTS =======-->
                     <div id="list-item-1">
                         <div class="hero-heading-area heading1">
-                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="{{asset('assets/img/icons/sublogo1.svg')}}" alt="">Hi, I’m Ashik, Web designer & Web developer. </h5>
+                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="{{secure_asset('assets/img/icons/sublogo1.svg')}}" alt="">Hi, I’m Ashik, Web designer & Web developer. </h5>
                             <div class="space24"></div>
                             <h1 data-aos="fade-left" data-aos-duration="900">Designing Intuitive </h1>
                             <div class="space24"></div>
@@ -170,12 +169,12 @@
                             <p data-aos="fade-left" data-aos-duration="1100">Your gateway to innovative design, seamless user experiences, and impactful solutions. Turning complex ideas into user-friendly designs. </p>
                             <div class="arrow" data-aos="fade-left" data-aos-duration="1200">
                                 <a href="#">
-                                    <img src="{{asset('assets/img/elements/elements1.png')}}" alt="" class="elements1 keyframe5">
-                                    <img src="{{asset('assets/img/icons/arrow1.svg')}}" alt="" class="arrow1">
+                                    <img src="{{secure_asset('assets/img/elements/elements1.png')}}" alt="" class="elements1 keyframe5">
+                                    <img src="{{secure_asset('assets/img/icons/arrow1.svg')}}" alt="" class="arrow1">
                                 </a>
 
                                 <div class="images">
-                                    <img src="{{asset('assets/img/all-images/others/others1.png')}}" alt="">
+                                    <img src="{{secure_asset('assets/img/all-images/others/others1.png')}}" alt="">
                                     <p>2k+ reviews <br> (4.90 of 5)</p>
                                 </div>
                             </div>
@@ -191,7 +190,7 @@
                         <!--===== ABOUT AREA STARTS =======-->
                         <div class="about-section-area">
                             <div class="heading1">
-                                <h5 data-aos="fade-left" data-aos-duration="800"><img src="{{asset('assets/img/icons/sublogo1.svg')}}" alt="">About Us</h5>
+                                <h5 data-aos="fade-left" data-aos-duration="800"><img src="{{secure_asset('assets/img/icons/sublogo1.svg')}}" alt="">About Us</h5>
                                 <div class="space24"></div>
                                 <h1 data-aos="fade-left" data-aos-duration="1000">Crafting Seamless</h1>
                                 <div class="space24"></div>
@@ -211,7 +210,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="900">
                                         <div class="about-boxes2">
-                                            <img src="{{asset('assets/img/icons/home2.svg')}}" alt="">
+                                            <img src="{{secure_asset('assets/img/icons/home2.svg')}}" alt="">
                                             <div class="content-area">
                                                 <h4>Web Development</h4>
                                                 <div class="space16"></div>
@@ -224,7 +223,7 @@
 
                                     <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                                         <div class="about-boxes2">
-                                            <img src="{{asset('assets/img/icons/home3.svg')}}" alt="">
+                                            <img src="{{secure_asset('assets/img/icons/home3.svg')}}" alt="">
                                             <div class="content-area">
                                                 <h4>Backend Systems</h4>
                                                 <div class="space16"></div>
@@ -237,7 +236,7 @@
 
                                     <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1100">
                                         <div class="about-boxes2">
-                                            <img src="{{asset('assets/img/icons/home4.svg')}}" alt="">
+                                            <img src="{{secure_asset('assets/img/icons/home4.svg')}}" alt="">
                                             <div class="content-area">
                                                 <h4>Responsive Web Design</h4>
                                                 <div class="space16"></div>
@@ -250,7 +249,7 @@
 
                                     <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200">
                                         <div class="about-boxes2">
-                                            <img src="{{asset('assets/img/icons/home5.svg')}}" alt="">
+                                            <img src="{{secure_asset('assets/img/icons/home5.svg')}}" alt="">
                                             <div class="content-area">
                                                 <h4>Database Management</h4>
                                                 <div class="space16"></div>
@@ -281,8 +280,8 @@
                                             <h4>Stay With Me </h4>
                                             <div class="space18"></div>
                                             <ul>
-                                                <li><a href="https://www.facebook.com/ashik.razz.8490/" target="_blank"><img src="{{asset('assets/img/icons/s-icon3.svg')}}" alt=""></a></li>
-                                                <li><a href="https://www.linkedin.com/in/ashikur-rahman-1154793a2/" target="_blank"><img src="{{asset('assets/img/icons/s-icon4.svg')}}" alt=""></a></li>
+                                                <li><a href="https://www.facebook.com/ashik.razz.8490/" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon3.svg')}}" alt=""></a></li>
+                                                <li><a href="https://www.linkedin.com/in/ashikur-rahman-1154793a2/" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon4.svg')}}" alt=""></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -321,7 +320,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="service-header heading1">
-                                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="{{asset('assets/img/icons/sublogo1.svg')}}" alt="">My Services</h5>
+                                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="{{secure_asset('assets/img/icons/sublogo1.svg')}}" alt="">My Services</h5>
                                             <div class="space24"></div>
                                             <h2 data-aos="fade-left" data-aos-duration="1000">Elevating Brands</h2>
                                             <div class="space24"></div>
@@ -381,7 +380,7 @@
                                 <div class="row">
                                     <div class="col-gl-12">
                                         <div class="skill-header heading1">
-                                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sublogo1.svg" alt="">My Skill</h5>
+                                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="{{secure_asset('assets/img/icons/sublogo1.svg')}}" alt="">My Skill</h5>
                                             <div class="space24"></div>
                                             <h2 data-aos="fade-left" data-aos-duration="1000">The Technology and</h2>
                                             <div class="space24"></div>
@@ -393,7 +392,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="900">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill1.svg" alt="">
+                                                        <img src="{{secure_asset('assets/img/icons/skill1.svg')}}" alt="">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -404,7 +403,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="1000">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill2.svg" alt="">
+                                                        <img src="{{secure_asset('assets/img/icons/skill2.svg')}}" alt="">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -415,7 +414,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="1100">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill3.svg" alt="">
+                                                        <img src="{{secure_asset('assets/img/icons/skill3.svg'}}" alt="">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -426,7 +425,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="1200">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill4.svg" alt="">
+                                                        <img src="{{secure_asset('assets/img/icons/skill4.svg')}}" alt="">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -437,7 +436,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="1000">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill5.svg" alt="">
+                                                        <img src="{{secure_asset('assets/img/icons/skill5.svg')}}" alt="">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -448,7 +447,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="11000">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill6.svg" alt="" class="Wordpress">
+                                                        <img src="{{secure_asset('assets/img/icons/skill6.svg')}}" alt="" class="Wordpress">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -459,7 +458,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="11000">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill7.svg" alt="" class="Wordpress">
+                                                        <img src="{{secure_asset('assets/img/icons/skill7.svg')}}" alt="" class="Wordpress">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -470,7 +469,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="11000">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill8.svg" alt="" class="Wordpress">
+                                                        <img src="{{secure_asset('assets/img/icons/skill8.svg')}}" alt="" class="Wordpress">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -481,7 +480,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="11000">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill9.svg" alt="" class="Wordpress">
+                                                        <img src="{{secure_asset('assets/img/icons/skill9.svg')}}" alt="" class="Wordpress">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -492,7 +491,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="11000">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill10.svg" alt="" class="Wordpress">
+                                                        <img src="{{secure_asset('assets/img/icons/skill10.svg')}}" alt="" class="Wordpress">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -503,7 +502,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="11000">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill11.svg" alt="" class="Wordpress">
+                                                        <img src="{{secure_asset('assets/img/icons/skill11.svg')}}" alt="" class="Wordpress">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -514,7 +513,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="11000">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="assets/img/icons/skill12.svg" alt="" class="Wordpress">
+                                                        <img src="{{secure_asset('assets/img/icons/skill12.svg')}}" alt="" class="Wordpress">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
@@ -536,7 +535,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="portfolio-header heading1">
-                                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sublogo1.svg" alt="">My Portfolio</h5>
+                                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="{{secure_asset('assets/img/icons/sublogo1.svg')}}" alt="">My Portfolio</h5>
                                             <div class="space24"></div>
                                             <h2 data-aos="fade-left" data-aos-duration="1000">Develop & Designs</h2>
                                             <div class="space24"></div>
@@ -548,7 +547,7 @@
                                         <div class="portfolio-boxarea click-here">
                                             <div class="img1">
                                                 <a href="https://scholarlabfoundation.tech/" target="_blank">
-                                                    <img src="assets/img/all-images/portfolio/SLab-1.png" alt="">
+                                                    <img src="{{secure_asset('assets/img/all-images/portfolio/SLab-1.png')}}" alt="">
                                                 </a>
                                             </div>
                                             <div class="space24"></div>
@@ -560,7 +559,7 @@
                                         <div class="portfolio-boxarea2 click-here">
                                             <div class="img1">
                                                 <a href="https://littleonlinemart.com/" target="_blank">
-                                                    <img src="assets/img/all-images/portfolio/LOM-1.png" alt="">
+                                                    <img src="{{secure_asset('assets/img/all-images/portfolio/LOM-1.png')}}" alt="">
                                                 </a>
                                             </div>
                                             <div class="space24"></div>
@@ -572,7 +571,7 @@
                                         <div class="portfolio-boxarea2 click-here">
                                             <div class="img1">
                                                 <a href="javascript:void(0)">
-                                                    <img src="assets/img/all-images/portfolio/INV-1.png" alt="">
+                                                    <img src="{{secure_asset('assets/img/all-images/portfolio/INV-1.png')}}" alt="">
                                                 </a>
                                             </div>
                                             <div class="space24"></div>
@@ -584,7 +583,7 @@
                                         <div class="portfolio-boxarea click-here">
                                             <div class="img1">
                                                 <a href="https://edpngo.org/" target="_blank">
-                                                    <img src="assets/img/all-images/portfolio/EDP-1.png" alt="">
+                                                    <img src="{{secure_asset('assets/img/all-images/portfolio/EDP-1.png')}}" alt="">
                                                 </a>
                                             </div>
                                             <div class="space24"></div>
@@ -604,7 +603,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="testimonial-header heading1">
-                                            <h5 data-aos="fade-left" data-aos-duration="900"><img src="assets/img/icons/sublogo1.svg" alt="">Testimonial</h5>
+                                            <h5 data-aos="fade-left" data-aos-duration="900"><img src="{{secure_asset('assets/img/icons/sublogo1.svg')}}" alt="">Testimonial</h5>
                                             <div class="space24"></div>
                                             <h2 data-aos="fade-left" data-aos-duration="1000">What Client Says </h2>
                                             <div class="space24"></div>
@@ -631,7 +630,7 @@
                                             <div class="space24"></div>
                                             <div class="mans-area">
                                                 <div class="man">
-                                                    <img src="assets/img/all-images/testimonials/sadhin.png" alt="">
+                                                    <img src="{{secure_asset('assets/img/all-images/testimonials/sadhin.png')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <a href="#">Sadhin Hossain</a>
@@ -659,7 +658,7 @@
                                             <div class="space24"></div>
                                             <div class="mans-area">
                                                 <div class="man">
-                                                    <img src="assets/img/all-images/testimonials/fahim.png" alt="">
+                                                    <img src="{{secure_asset('assets/img/all-images/testimonials/fahim.png')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <a href="#">Mohammad Fahim</a>
@@ -688,7 +687,7 @@
                                             <div class="space24"></div>
                                             <div class="mans-area">
                                                 <div class="man">
-                                                    <img src="assets/img/all-images/testimonials/Sami Shafayat.jpg" alt="">
+                                                    <img src="{{secure_asset('assets/img/all-images/testimonials/Sami Shafayat.jpg')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <a href="#">Sami Shafayat</a>
@@ -717,7 +716,7 @@
                                             <div class="space24"></div>
                                             <div class="mans-area">
                                                 <div class="man">
-                                                    <img src="assets/img/all-images/testimonials/Rayhan.jpg" alt="">
+                                                    <img src="{{secure_asset('assets/img/all-images/testimonials/Rayhan.jpg')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <a href="#">Rayhan Biswas</a>
@@ -739,7 +738,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="blog-header heading1">
-                                            <h5 data-aos="fade-left" data-aos-duration="900"><img src="assets/img/icons/sublogo1.svg" alt="">My Certification</h5>
+                                            <h5 data-aos="fade-left" data-aos-duration="900"><img src="{{secure_asset('assets/img/icons/sublogo1.svg')}}" alt="">My Certification</h5>
                                             <div class="space24"></div>
                                             <h2 data-aos="fade-left" data-aos-duration="1000">My Latest Certificate </h2>
                                             <div class="space24"></div>
@@ -749,14 +748,14 @@
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="blog-boxarea">
                                                         <div class="img1 reveal">
-                                                            <a href="javascript:void(0)"> <img src="assets/img/all-images/blog/CIS_Day.jpeg" alt=""></a>
+                                                            <a href="javascript:void(0)"> <img src="{{secure_asset('assets/img/all-images/blog/CIS_Day.jpeg')}}" alt=""></a>
                                                         </div>
                                                         <div class="content-area">
                                                             <div class="space16"></div>
                                                             <a href="javascript:void(0)">Programming Contest on Daffodil International University </a>
                                                             <div class="space16"></div>
                                                             <ul>
-                                                                <li><a href="javascript:void(0)"><img src="assets/img/all-images/blog/blog-img5.png" alt="">Ashikur Rahman</a></li>
+                                                                <li><a href="javascript:void(0)"><img src="{{secure_asset('assets/img/all-images/blog/blog-img5.png')}}" alt="">Ashikur Rahman</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -764,30 +763,14 @@
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="blog-boxarea">
                                                         <div class="img1 reveal">
-                                                            <a href="javascript:void(0)"><img src="assets/img/all-images/blog/blog-img2.jpg" alt=""></a>
+                                                            <a href="javascript:void(0)"><img src="{{secure_asset('assets/img/all-images/blog/blog-img2.jpg')}}" alt=""></a>
                                                         </div>
                                                         <div class="content-area">
                                                             <div class="space16"></div>
                                                             <a href="javascript:void(0)">Certified from goedu, Skill.jobs and HRDI</a>
                                                             <div class="space16"></div>
                                                             <ul>
-                                                                <li><a href="javascript:void(0)"><img src="assets/img/all-images/blog/blog-img5.png" alt="">Ashikur Rahman</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-lg-6 col-md-6">
-                                                    <div class="blog-boxarea">
-                                                        <div class="img1 reveal">
-                                                            <a href="javascript:void(0)"> <img src="assets/img/all-images/blog/blog-img3.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="content-area">
-                                                            <div class="space16"></div>
-                                                            <a href="javascript:void(0)">Certified from goedu, Skill.jobs and HRDI</a>
-                                                            <div class="space16"></div>
-                                                            <ul>
-                                                                <li><a href="javascript:void(0)"><img src="assets/img/all-images/blog/blog-img5.png" alt="">Ashikur Rahman</a></li>
+                                                                <li><a href="javascript:void(0)"><img src="{{secure_asset('assets/img/all-images/blog/blog-img5.png')}}" alt="">Ashikur Rahman</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -796,14 +779,30 @@
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="blog-boxarea">
                                                         <div class="img1 reveal">
-                                                            <a href="javascript:void(0)"><img src="assets/img/all-images/blog/blog-img4.jpg" alt=""></a>
+                                                            <a href="javascript:void(0)"> <img src="{{secure_asset('assets/img/all-images/blog/blog-img3.jpg')}}" alt=""></a>
                                                         </div>
                                                         <div class="content-area">
                                                             <div class="space16"></div>
                                                             <a href="javascript:void(0)">Certified from goedu, Skill.jobs and HRDI</a>
                                                             <div class="space16"></div>
                                                             <ul>
-                                                                <li><a href="javascript:void(0)"><img src="assets/img/all-images/blog/blog-img5.png" alt="">Ashikur Rahman</a></li>
+                                                                <li><a href="javascript:void(0)"><img src="{{secure_asset('assets/img/all-images/blog/blog-img5.png')}}" alt="">Ashikur Rahman</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="blog-boxarea">
+                                                        <div class="img1 reveal">
+                                                            <a href="javascript:void(0)"><img src="{{secure_asset('assets/img/all-images/blog/blog-img4.jpg')}}" alt=""></a>
+                                                        </div>
+                                                        <div class="content-area">
+                                                            <div class="space16"></div>
+                                                            <a href="javascript:void(0)">Certified from goedu, Skill.jobs and HRDI</a>
+                                                            <div class="space16"></div>
+                                                            <ul>
+                                                                <li><a href="javascript:void(0)"><img src="{{secure_asset('assets/img/all-images/blog/blog-img5.png')}}" alt="">Ashikur Rahman</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -826,7 +825,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="contact-heading heading1">
-                                            <h5 data-aos="fade-left" data-aos-duration="900"><img src="{{asset('assets/img/icons/sublogo1.svg')}}" alt="">Contact Me</h5>
+                                            <h5 data-aos="fade-left" data-aos-duration="900"><img src="{{secure_asset('assets/img/icons/sublogo1.svg')}}" alt="">Contact Me</h5>
                                             <div class="space24"></div>
                                             <h2 data-aos="fade-left" data-aos-duration="1000">Have Any Project in</h2>
                                             <div class="space24"></div>
@@ -874,7 +873,7 @@
 
                                                     <div class="col-lg-12">
                                                         <div class="input-area">
-                                                            <button type="submit" class="vl-btn1">Send <img src="{{asset('assets/img/icons/mail1.svg')}}" alt=""></button>
+                                                            <button type="submit" class="vl-btn1">Send <img src="{{secure_asset('assets/img/icons/mail1.svg')}}" alt=""></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -886,7 +885,7 @@
                                         <div class="space50"></div>
                                         <div class="footer-area">
                                             <div class="btn-area1">
-                                                <a href="#"><img src="{{asset('assets/img/logo/logo1.png')}}" alt="" style="height: 100px;"></a>
+                                                <a href="#"><img src="{{secure_asset('assets/img/logo/logo1.png')}}" alt="" style="height: 100px;"></a>
                                             </div>
                                             <p>© {{ now()->year }} Ashik. All Rights Reserved.</p>
                                         </div>
@@ -912,22 +911,22 @@
 <!-- Toastr JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
-<script src="{{asset('assets/js/plugins/bootstrap.min.js')}}"></script>
-<script src="{{asset('assets/js/plugins/fontawesome.js')}}"></script>
-<script src="{{asset('assets/js/plugins/aos.js')}}"></script>
-<script src="{{asset('assets/js/plugins/counter.js')}}"></script>
-<script src="{{asset('assets/js/plugins/sidebar.js')}}"></script>
-<script src="{{asset('assets/js/plugins/magnific-popup.js')}}"></script>
-<script src="{{asset('assets/js/plugins/owlcarousel.min.js')}}"></script>
-<script src="{{asset('assets/js/plugins/nice-select.js')}}"></script>
-<script src="{{asset('assets/js/plugins/waypoints.js')}}"></script>
-<script src="{{asset('assets/js/plugins/slick-slider.js')}}"></script>
-<script src="{{asset('assets/js/plugins/gsap.min.js')}}"></script>
-<script src="{{asset('assets/js/plugins/ScrollTrigger.min.js')}}"></script>
-<script src="{{asset('assets/js/plugins/Splitetext.js')}}"></script>
-<script src="{{asset('assets/js/plugins/SmoothScroll.js')}}"></script>
-<script src="{{asset('assets/js/plugins/parallax.js')}}"></script>
-<script src="{{asset('assets/js/main.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/bootstrap.min.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/fontawesome.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/aos.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/counter.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/sidebar.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/magnific-popup.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/owlcarousel.min.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/nice-select.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/waypoints.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/slick-slider.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/gsap.min.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/ScrollTrigger.min.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/Splitetext.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/SmoothScroll.js')}}"></script>
+<script src="{{secure_asset('assets/js/plugins/parallax.js')}}"></script>
+<script src="{{secure_asset('assets/js/main.js')}}"></script>
 
 
 
@@ -969,4 +968,3 @@ toastr.success("{{ session('success') }}", "Success!", {
 
 
 </body>
-</html>
