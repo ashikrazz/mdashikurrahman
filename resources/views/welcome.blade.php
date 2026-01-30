@@ -10,7 +10,7 @@
     <!--===== CSS LINK =======-->
     <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/aos.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/fontawesome.css') }}">
+    <!--<link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/fontawesome.css') }}">-->
     <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/owlcarousel.min.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/sidebar.css') }}">
