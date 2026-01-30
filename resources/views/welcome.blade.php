@@ -6,26 +6,25 @@
     <title>Md Ashikur Rahman</title>
 
     <!--=====FAB ICON=======-->
-    <link rel="shortcut icon" href="{{asset('assets/img/logo/fav-logo1.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ secure_asset('assets/img/logo/fav-logo1.png') }}" type="image/x-icon">
 
     <!--===== CSS LINK =======-->
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/aos.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/fontawesome.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/owlcarousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/sidebar.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/slick-slider.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/nice-select.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/aos.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/owlcarousel.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/sidebar.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/slick-slider.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/main.css') }}">
+
+    <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- Toastr CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
-
-
-    <!--=====  JS SCRIPT LINK =======-->
-    <script src="{{asset('assets/js/plugins/jquery-3-7-1.min.js')}}"></script>
+    <!-- JS Plugins -->
+    <script src="{{ secure_asset('assets/js/plugins/jquery-3-7-1.min.js') }}"></script>
 </head>
 <body class="body1">
 
