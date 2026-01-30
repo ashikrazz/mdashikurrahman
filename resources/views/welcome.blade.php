@@ -414,7 +414,7 @@
                                             <div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="1100">
                                                 <div class="skill-boxarea">
                                                     <div class="icons">
-                                                        <img src="{{secure_asset('assets/img/icons/skill3.svg'}}" alt="">
+                                                        <img src="{{secure_asset('assets/img/icons/skill3.svg')}}" alt="">
                                                     </div>
                                                     <div class="space24"></div>
                                                     <div class="space16"></div>
