@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="{{ secure_asset('assets/css/main.css') }}">
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="stylesheet" href="{{secure_asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css')}}">
 
     <!-- JS Plugins -->
     <script src="{{ secure_asset('assets/js/plugins/jquery-3-7-1.min.js') }}"></script>
@@ -78,8 +78,8 @@
                 <h3 class="sidebar-heading">Social Links</h3>
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/ashik.razz.8490/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://www.linkedin.com/in/ashikur-rahman-1154793a2/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="{{secure_asset('https://www.facebook.com/ashik.razz.8490/')}}" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="{{secure_asset('https://www.linkedin.com/in/ashikur-rahman-1154793a2/')}}" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                     </li>
                 </ul>
             </div>
@@ -144,8 +144,8 @@
                     <p>Hi, I’m Ashik, a dedicated Web Designer/Web Developer with 2 years of experience creating meaningful digital experiences.</p>
                     <div class="space32"></div>
                     <ul>
-                        <li><a href="https://www.facebook.com/ashik.razz.8490/" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon3.svg')}}" alt=""></a></li>
-                        <li><a href="https://www.linkedin.com/in/ashikur-rahman-1154793a2/" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon4.svg')}}" alt=""></a></li>
+                        <li><a href="{{secure_asset('https://www.facebook.com/ashik.razz.8490/')}}" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon3.svg')}}" alt=""></a></li>
+                        <li><a href="{{secure_asset('https://www.linkedin.com/in/ashikur-rahman-1154793a2/')}}" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon4.svg')}}" alt=""></a></li>
                     </ul>
                     <div class="space44"></div>
                     <div class="btn-area1 text-center">
@@ -280,8 +280,8 @@
                                             <h4>Stay With Me </h4>
                                             <div class="space18"></div>
                                             <ul>
-                                                <li><a href="https://www.facebook.com/ashik.razz.8490/" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon3.svg')}}" alt=""></a></li>
-                                                <li><a href="https://www.linkedin.com/in/ashikur-rahman-1154793a2/" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon4.svg')}}" alt=""></a></li>
+                                                <li><a href="{{secure_asset('https://www.facebook.com/ashik.razz.8490/')}}" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon3.svg')}}" alt=""></a></li>
+                                                <li><a href="{{secure_asset('https://www.linkedin.com/in/ashikur-rahman-1154793a2/')}}" target="_blank"><img src="{{secure_asset('assets/img/icons/s-icon4.svg')}}" alt=""></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -546,24 +546,24 @@
                                     <div class="col-lg-12" data-aos="fade-left" data-aos-duration="1000">
                                         <div class="portfolio-boxarea click-here">
                                             <div class="img1">
-                                                <a href="https://scholarlabfoundation.tech/" target="_blank">
+                                                <a href="{{secure_asset('https://scholarlabfoundation.tech/')}}" target="_blank">
                                                     <img src="{{secure_asset('assets/img/all-images/portfolio/SLab-1.png')}}" alt="">
                                                 </a>
                                             </div>
                                             <div class="space24"></div>
-                                            <a href="https://scholarlabfoundation.tech/" target="_blank">Scholarlab Foundation - NGO Platform</a>
+                                            <a href="{{secure_asset('https://scholarlabfoundation.tech/')}}" target="_blank">Scholarlab Foundation - NGO Platform</a>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1100">
                                         <div class="portfolio-boxarea2 click-here">
                                             <div class="img1">
-                                                <a href="https://littleonlinemart.com/" target="_blank">
+                                                <a href="{{secure_asset('https://littleonlinemart.com/')}}" target="_blank">
                                                     <img src="{{secure_asset('assets/img/all-images/portfolio/LOM-1.png')}}" alt="">
                                                 </a>
                                             </div>
                                             <div class="space24"></div>
-                                            <a href="https://littleonlinemart.com/" target="_blank">Littles Online Mart - eCommers</a>
+                                            <a href="{{secure_asset('https://littleonlinemart.com/')}}" target="_blank">Littles Online Mart - eCommers</a>
                                         </div>
                                     </div>
 
@@ -582,12 +582,12 @@
                                     <div class="col-lg-12" data-aos="fade-left" data-aos-duration="1100">
                                         <div class="portfolio-boxarea click-here">
                                             <div class="img1">
-                                                <a href="https://edpngo.org/" target="_blank">
+                                                <a href="{{secure_asset('https://edpngo.org/')}}" target="_blank">
                                                     <img src="{{secure_asset('assets/img/all-images/portfolio/EDP-1.png')}}" alt="">
                                                 </a>
                                             </div>
                                             <div class="space24"></div>
-                                            <a href="https://edpngo.org/" target="_blank">EDP - NGO Platform</a>
+                                            <a href="{{secure_asset('https://edpngo.org/')}}" target="_blank">EDP - NGO Platform</a>
                                         </div>
                                     </div>
                                 </div>
@@ -621,7 +621,7 @@
                                                     <li><i class="fa-solid fa-star"></i></li>
                                                     <li><i class="fa-solid fa-star"></i></li>
                                                 </ul>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+                                                <svg xmlns="{{secure_asset('http://www.w3.org/2000/svg')}}" width="24" height="20" viewBox="0 0 24 20" fill="none">
                                                     <path d="M13.077 4.99278C13.077 6.16612 13.3836 7.15145 13.997 7.94878C14.4316 8.49812 15.0214 8.859 15.7663 9.03145C16.4996 9.20212 17.193 9.21412 17.8196 9.06878C18.033 10.3354 17.6863 11.6768 16.8063 13.0981C15.9245 14.5186 14.7876 15.5866 13.3956 16.3021L15.5036 19.3354C16.5703 18.8074 17.5836 18.1381 18.517 17.3288C19.4636 16.5194 20.3036 15.5888 21.0503 14.5368C21.797 13.4848 22.357 12.2968 22.717 10.9501C23.077 9.60345 23.177 8.23012 23.005 6.81678C22.781 4.95012 22.1783 3.45678 21.197 2.35011C20.2165 1.22923 18.9952 0.668781 17.533 0.668781C16.2463 0.668781 15.1783 1.05545 14.333 1.83945C13.4965 2.60745 13.0787 3.65989 13.0796 4.99678L13.077 4.99278ZM0.911625 4.99278C0.911625 6.16612 1.21829 7.15145 1.83162 7.94878C2.26718 8.50878 2.85696 8.87189 3.60096 9.03812C4.34763 9.20256 5.03207 9.21234 5.65429 9.06745C5.86762 10.3208 5.53429 11.6674 4.65162 13.0941C3.77163 14.5074 2.63563 15.5741 1.24363 16.2941L3.34629 19.3354C4.41385 18.8074 5.41829 18.1386 6.35962 17.3288C7.31482 16.5074 8.16322 15.5694 8.88496 14.5368C9.62629 13.4834 10.1783 12.2968 10.5383 10.9501C10.904 9.6045 11.0023 8.20023 10.8276 6.81678C10.6063 4.95012 10.0063 3.45678 9.02762 2.35011C8.04985 1.23723 6.83074 0.680782 5.37029 0.680782C4.0814 0.679005 3.01385 1.06878 2.16762 1.85011C1.33118 2.61811 0.912514 3.67056 0.911625 5.00745V4.99278Z" fill="white"/>
                                                 </svg>
                                             </div>
@@ -649,7 +649,7 @@
                                                     <li><i class="fa-solid fa-star"></i></li>
                                                     <li><i class="fa-solid fa-star"></i></li>
                                                 </ul>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+                                                <svg xmlns="{{secure_asset('http://www.w3.org/2000/svg')}}" width="24" height="20" viewBox="0 0 24 20" fill="none">
                                                     <path d="M13.077 4.99278C13.077 6.16612 13.3836 7.15145 13.997 7.94878C14.4316 8.49812 15.0214 8.859 15.7663 9.03145C16.4996 9.20212 17.193 9.21412 17.8196 9.06878C18.033 10.3354 17.6863 11.6768 16.8063 13.0981C15.9245 14.5186 14.7876 15.5866 13.3956 16.3021L15.5036 19.3354C16.5703 18.8074 17.5836 18.1381 18.517 17.3288C19.4636 16.5194 20.3036 15.5888 21.0503 14.5368C21.797 13.4848 22.357 12.2968 22.717 10.9501C23.077 9.60345 23.177 8.23012 23.005 6.81678C22.781 4.95012 22.1783 3.45678 21.197 2.35011C20.2165 1.22923 18.9952 0.668781 17.533 0.668781C16.2463 0.668781 15.1783 1.05545 14.333 1.83945C13.4965 2.60745 13.0787 3.65989 13.0796 4.99678L13.077 4.99278ZM0.911625 4.99278C0.911625 6.16612 1.21829 7.15145 1.83162 7.94878C2.26718 8.50878 2.85696 8.87189 3.60096 9.03812C4.34763 9.20256 5.03207 9.21234 5.65429 9.06745C5.86762 10.3208 5.53429 11.6674 4.65162 13.0941C3.77163 14.5074 2.63563 15.5741 1.24363 16.2941L3.34629 19.3354C4.41385 18.8074 5.41829 18.1386 6.35962 17.3288C7.31482 16.5074 8.16322 15.5694 8.88496 14.5368C9.62629 13.4834 10.1783 12.2968 10.5383 10.9501C10.904 9.6045 11.0023 8.20023 10.8276 6.81678C10.6063 4.95012 10.0063 3.45678 9.02762 2.35011C8.04985 1.23723 6.83074 0.680782 5.37029 0.680782C4.0814 0.679005 3.01385 1.06878 2.16762 1.85011C1.33118 2.61811 0.912514 3.67056 0.911625 5.00745V4.99278Z" fill="white"/>
                                                 </svg>
                                             </div>
@@ -678,7 +678,7 @@
                                                     <li><i class="fa-solid fa-star"></i></li>
                                                     <li><i class="fa-solid fa-star"></i></li>
                                                 </ul>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+                                                <svg xmlns="{{secure_asset('http://www.w3.org/2000/svg')}}" width="24" height="20" viewBox="0 0 24 20" fill="none">
                                                     <path d="M13.077 4.99278C13.077 6.16612 13.3836 7.15145 13.997 7.94878C14.4316 8.49812 15.0214 8.859 15.7663 9.03145C16.4996 9.20212 17.193 9.21412 17.8196 9.06878C18.033 10.3354 17.6863 11.6768 16.8063 13.0981C15.9245 14.5186 14.7876 15.5866 13.3956 16.3021L15.5036 19.3354C16.5703 18.8074 17.5836 18.1381 18.517 17.3288C19.4636 16.5194 20.3036 15.5888 21.0503 14.5368C21.797 13.4848 22.357 12.2968 22.717 10.9501C23.077 9.60345 23.177 8.23012 23.005 6.81678C22.781 4.95012 22.1783 3.45678 21.197 2.35011C20.2165 1.22923 18.9952 0.668781 17.533 0.668781C16.2463 0.668781 15.1783 1.05545 14.333 1.83945C13.4965 2.60745 13.0787 3.65989 13.0796 4.99678L13.077 4.99278ZM0.911625 4.99278C0.911625 6.16612 1.21829 7.15145 1.83162 7.94878C2.26718 8.50878 2.85696 8.87189 3.60096 9.03812C4.34763 9.20256 5.03207 9.21234 5.65429 9.06745C5.86762 10.3208 5.53429 11.6674 4.65162 13.0941C3.77163 14.5074 2.63563 15.5741 1.24363 16.2941L3.34629 19.3354C4.41385 18.8074 5.41829 18.1386 6.35962 17.3288C7.31482 16.5074 8.16322 15.5694 8.88496 14.5368C9.62629 13.4834 10.1783 12.2968 10.5383 10.9501C10.904 9.6045 11.0023 8.20023 10.8276 6.81678C10.6063 4.95012 10.0063 3.45678 9.02762 2.35011C8.04985 1.23723 6.83074 0.680782 5.37029 0.680782C4.0814 0.679005 3.01385 1.06878 2.16762 1.85011C1.33118 2.61811 0.912514 3.67056 0.911625 5.00745V4.99278Z" fill="white"/>
                                                 </svg>
                                             </div>
@@ -706,7 +706,7 @@
                                                     <li><i class="fa-solid fa-star"></i></li>
                                                     <li><i class="fa-solid fa-star"></i></li>
                                                 </ul>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+                                                <svg xmlns="{{secure_asset('http://www.w3.org/2000/svg')}}" width="24" height="20" viewBox="0 0 24 20" fill="none">
                                                     <path d="M13.077 4.99278C13.077 6.16612 13.3836 7.15145 13.997 7.94878C14.4316 8.49812 15.0214 8.859 15.7663 9.03145C16.4996 9.20212 17.193 9.21412 17.8196 9.06878C18.033 10.3354 17.6863 11.6768 16.8063 13.0981C15.9245 14.5186 14.7876 15.5866 13.3956 16.3021L15.5036 19.3354C16.5703 18.8074 17.5836 18.1381 18.517 17.3288C19.4636 16.5194 20.3036 15.5888 21.0503 14.5368C21.797 13.4848 22.357 12.2968 22.717 10.9501C23.077 9.60345 23.177 8.23012 23.005 6.81678C22.781 4.95012 22.1783 3.45678 21.197 2.35011C20.2165 1.22923 18.9952 0.668781 17.533 0.668781C16.2463 0.668781 15.1783 1.05545 14.333 1.83945C13.4965 2.60745 13.0787 3.65989 13.0796 4.99678L13.077 4.99278ZM0.911625 4.99278C0.911625 6.16612 1.21829 7.15145 1.83162 7.94878C2.26718 8.50878 2.85696 8.87189 3.60096 9.03812C4.34763 9.20256 5.03207 9.21234 5.65429 9.06745C5.86762 10.3208 5.53429 11.6674 4.65162 13.0941C3.77163 14.5074 2.63563 15.5741 1.24363 16.2941L3.34629 19.3354C4.41385 18.8074 5.41829 18.1386 6.35962 17.3288C7.31482 16.5074 8.16322 15.5694 8.88496 14.5368C9.62629 13.4834 10.1783 12.2968 10.5383 10.9501C10.904 9.6045 11.0023 8.20023 10.8276 6.81678C10.6063 4.95012 10.0063 3.45678 9.02762 2.35011C8.04985 1.23723 6.83074 0.680782 5.37029 0.680782C4.0814 0.679005 3.01385 1.06878 2.16762 1.85011C1.33118 2.61811 0.912514 3.67056 0.911625 5.00745V4.99278Z" fill="white"/>
                                                 </svg>
                                             </div>
@@ -835,7 +835,7 @@
                                         <div class="contact-boxarea" data-aos="zoom-in" data-aos-duration="1000">
                                             <h3>Let’s Work Together!</h3>
                                             <div class="space12"></div>
-                                            <form action="{{ route('contact.send') }}" method="POST" onsubmit="return showSuccess()">
+                                            <form action="{{ route('contact.send') }}" method="POST">
                                                 @csrf
                                                 <div class="row">
                                                     <div class="col-lg-6 col-md-6">
@@ -906,10 +906,10 @@
 
 <!--===== JS SCRIPT LINK =======-->
 <!-- jQuery (Toastr needs it!) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="{{secure_asset('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js')}}"></script>
 
 <!-- Toastr JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="{{secure_asset('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js')}}"></script>
 
 <script src="{{secure_asset('assets/js/plugins/bootstrap.min.js')}}"></script>
 <script src="{{secure_asset('assets/js/plugins/fontawesome.js')}}"></script>
