@@ -10,7 +10,7 @@
     <!--===== CSS LINK =======-->
     <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/aos.css') }}">
-    <!--<link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/fontawesome.css') }}">-->
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/fontawesome.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/owlcarousel.min.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/plugins/sidebar.css') }}">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="{{ secure_asset('assets/css/main.css') }}">
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="{{secure_asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css')}}">
+    <!--<link rel="stylesheet" href="{{secure_asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css')}}">-->
     <link rel="stylesheet" href="{{secure_asset('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css')}}">
 
     <!-- JS Plugins -->
@@ -905,8 +905,8 @@
 
 
 <!--===== JS SCRIPT LINK =======-->
-<!-- jQuery (Toastr needs it!) -->
-<script src="{{secure_asset('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js')}}"></script>
+<!-- jQuery (Toastr needs it!) 
+<script src="{{secure_asset('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js')}}"></script>-->
 
 <!-- Toastr JS -->
 <script src="{{secure_asset('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js')}}"></script>
