@@ -151,7 +151,7 @@
                     </ul>
                     <div class="space44"></div>
                     <div class="btn-area1 text-center">
-                        <a href="{{asset('assets/img/all-images/hero/My_Resume.pdf')}}" download class="vl-btn1">Download CV Now <img src="{{asset('assets/img/icons/download1.svg')}}" alt=""></a>
+                        <a href="{{asset('assets/img/all-images/hero/My_Resume.pdf')}}" download class="vl-btn1">Download My CV <img src="{{asset('assets/img/icons/download1.svg')}}" alt=""></a>
                     </div>
                     <div class="space32"></div>
                     <p>© {{ now()->year }} Ashik. All Rights Reserved.</p>
