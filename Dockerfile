@@ -36,9 +36,7 @@ RUN mkdir -p /var/www/html/database \
     && chown -R www-data:www-data /var/www/html/database
 
 # Clear Laravel cache
-RUN php artisan config:clear \
-    && php artisan cache:clear \
-    && php artisan view:clear
+RUN php artisan config:clear
 
 # Expose port
 EXPOSE 10000
