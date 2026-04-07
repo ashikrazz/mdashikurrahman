@@ -49,4 +49,4 @@ CMD ["apache2-foreground"s 10000)
 EXPOSE 10000
 
 # Start Apache
-CMD ["apache2-foreground"
+CMD apache2-foreground
