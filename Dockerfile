@@ -30,16 +30,18 @@ RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available
 # Fix permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
-# Fix SQLite (important)
+# Fix SQLite (important for Render)
 RUN mkdir -p /var/www/html/database \
     && touch /var/www/html/database/database.sqlite \
     && chown -R www-data:www-data /var/www/html/database
 
-# Clear Laravel cache
-RUN php artisan config:clear
+# Laravel optimize (SAFE version - no cache DB error)
+RUN php artisan config:clear \
+    && php artisan route:clear \
+    && php artisan view:clear
 
 # Expose port
 EXPOSE 10000
 
-# Start Apache
-CMD apache2-foreground
+# Start Apache (IMPORTANT FIX)
+CMD ["apache2-foreground"]
