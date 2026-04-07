@@ -1,4 +1,4 @@
-# Use PHP with Apache (important for Laravel serving)
+# Use PHP with Apache
 FROM php:8.2-apache
 
 # Install system dependencies
@@ -18,34 +18,29 @@ COPY . .
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Install dependencies
+# Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Build frontend
+# Build frontend (Vite)
 RUN npm install && npm run build
 
-# Set Apache document root to public
+# Set Apache document root to Laravel public folder
 RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
 
 # Fix permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
-# Expose port (Render useRUN composer install --no-dev --optimize-autoloader
+# Fix SQLite (important)
+RUN mkdir -p /var/www/html/database \
+    && touch /var/www/html/database/database.sqlite \
+    && chown -R www-data:www-data /var/www/html/database
 
-# Build frontend
-RUN npm install && npm run build
+# Clear Laravel cache
+RUN php artisan config:clear \
+    && php artisan cache:clear \
+    && php artisan view:clear
 
-# Set Apache document root to public
-RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
-
-# Fix permissions
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
-
-# Expose port (Render uses 10000)
-EXPOSE 10000
-
-# Start Apache
-CMD ["apache2-foreground"s 10000)
+# Expose port
 EXPOSE 10000
 
 # Start Apache
